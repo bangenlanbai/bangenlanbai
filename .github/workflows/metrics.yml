@@ -24,6 +24,8 @@ jobs:
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
           # Options
           user: bangenlanbai
           template: classic
