@@ -23,7 +23,7 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-          
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           # Options
           user: bangenlanbai
           template: classic
@@ -34,12 +34,6 @@ jobs:
           config_octicon: yes
           config_timezone: Asia/Shanghai
           config_twemoji: yes
-          plugin_code: yes
-          plugin_code_days: 3
-          plugin_code_languages: python
-          plugin_code_lines: 12
-          plugin_code_load: 400
-          plugin_code_visibility: public
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: chartist
@@ -65,6 +59,9 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
@@ -81,3 +78,5 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: BGLB
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
