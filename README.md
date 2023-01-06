@@ -1,1 +1,1 @@
-![](https://github.com/bangenlanbai/bangenlanbai/blob/main/github-metrics.svg)
+<img src="/github-metrics.svg" alt="Metrics" width="100%">
