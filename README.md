@@ -1,1 +1,1 @@
-![Metrics](https://github.com/bangenlanbai/bangenlanbai/blob/main/github-metrics.svg)
+![](https://github.com/bangenlanbai/bangenlanbai/blob/main/github-metrics.svg)
