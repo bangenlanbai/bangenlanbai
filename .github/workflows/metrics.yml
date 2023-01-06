@@ -23,7 +23,8 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          
           # Options
           user: bangenlanbai
           template: classic
@@ -65,3 +66,4 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: BGLB
+          
